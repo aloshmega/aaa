@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .container {
+  position: relative;
+  width: 100%;
 
-You can use the [editor on GitHub](https://github.com/aloshmega/aaa/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
+.container .btn1 {
+  position: absolute;
+  top: 5%;
+  left: 65%;
+  
+  background-color:unset;
+  color:green;
+  font-size: 28px;
+  padding: 3px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  border-style:double;
+  border-color: whitesmoke;
+  border-width: 1px;
 
-### Markdown
+  
+}
+.container .btn2 {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  background-color:unset;
+  color:blue;
+  font-size: 28px;
+  padding: 3px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  border-style:double;
+  border-color: whitesmoke;
+  border-width: 1px;
+}
+.container .btn1:hover {
+  background-color:white;
+}
+.container .btn2:hover {
+  background-color:white;
+}
+    </style>
+</head>
+<body >
+        
+    <div class="container">
+        <video style="margin-left: -5px;margin-right: 0px" width="100%" height="100%"   controls loop autoplay >
+                <source src="mypro3.mp4" type="video/mp4">
+                <source src="mypro3-2.webm" type="video/webm">
+                Your browser does not support the video tag.
+              </video>
+              <button class="btn1" >Contact Us</button>
+              <button class="btn2" >About Us</button>
+</div>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aloshmega/aaa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+              
+              
+    
+</body>
+</html>
